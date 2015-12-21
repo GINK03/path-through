@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="jp">
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
@@ -10,15 +10,18 @@
         <legend>Checks</legend>
         <div class="container">
             <div class="row">
-                <input type="checkbox" name="checkHash" value="hash" id="hash" checked/> <label for="hash" title='href="#"'>Hash</label>
+                <input type="text" name="userName" id="uname" /> <label for="uname" title='href="#"'>UserName</label>
             </div>
             <div class="row">
-                <input type="checkbox" name="checkBlank" value="blank" id="blank" checked/> <label for="blank" title='href=""'>Empty</label>
+             <!-- <input type="checkbox" name="checkBlank" value="blank" id="blank" checked/> <label for="blank" title='href=""'>Empty</label> -->
             </div>
         </div>
-        <button id="inspect"><span class="icon-search">Select a container</span></button>
+        <button id="save"><span class="icon-save">SaveUserName</span></button>
+        <button id="saveLocalStrage"><span class="icon-save">SaveLocalStrage</span></button>
     </fieldset>
 </form>
-<button id="check"><span>Check</span></button>
 <script src="jquery-2.1.4.min.js"></script>
+<script src="jquery.cookie.js"></script>
+<SCRIPT src="popup.js"></script>
+<!-- <button id="check"><span>Check</span></button> -->
 </body>

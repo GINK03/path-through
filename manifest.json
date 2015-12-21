@@ -31,6 +31,8 @@
     "alarms",
     "<all_urls>",
     "unlimitedStorage",
-    "storage"
+    "storage",
+    "tabs",
+    "http://api0.chrome-mania.com/"
   ]
 }
